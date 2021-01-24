@@ -29,7 +29,7 @@ function App() {
   const toggleCurrentTheme = () => {
     currentTheme === "light" ? setTheme("dark") : setTheme("light");
   };
-  let mode = "light";
+  let mode = null;
   currentTheme === "light" ? (mode = "Dark mode") : (mode = "Light mode");
 
   return (
